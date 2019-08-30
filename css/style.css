@@ -1,0 +1,75 @@
+body,
+html {
+    scroll-behavior: smooth;
+    background: #ddeedd;
+    font-family: 'Chilanka', cursive;
+}
+
+.navigation {
+    background: transparent !important;
+}
+
+.navigation.scrolled {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*parallax section*/
+.parallax {
+    /* The image used */
+    background-image: url(../img/antioxidant-3483929__340.jpg);
+
+    /* Full height */
+    height: 480px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: -22;
+    top: 0;
+}
+
+/*parallax section*/
+
+#about {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#benefits {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#application {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#contact {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.navigation .navbar-brand {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navigation .navbar-brand .navigation.scrolled {
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.navigation .nav-item .nav-link {
+    color: red;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
